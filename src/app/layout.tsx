@@ -3,19 +3,20 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "Lapo Oase",
-    template: "%s | Lapo Oase"
+    default: "OASE CUP #1 | Mobile Legends Tournament",
+    template: "%s | OASE"
   },
-  description: "Lapo Oase landing page for Batak food, drinks, snacks, and warm everyday promos."
+  description:
+    "OASE CUP #1 Mini Turnamen Mobile Legends di Lapo Oase depan Terminal Porsea, Sabtu 01 Agustus 2026 pukul 10.00 WIB, total prize pool Rp2.100.000."
 };
 
 export const viewport: Viewport = {
-  themeColor: "#11100d"
+  themeColor: "#07080c"
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
+    <html lang="id">
       <body>{children}</body>
     </html>
   );
